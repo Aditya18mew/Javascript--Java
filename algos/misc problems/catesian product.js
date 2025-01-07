@@ -13,6 +13,6 @@ for(let i=0;i<arr1.length;i++){
 return prodarr
 }
 
-console.log(cartesianproduct(a,b))
+
 
 

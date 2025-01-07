@@ -14,7 +14,7 @@ while(n>=2){
 }
 
 
-console.log(power(35))
+
 
 // time complexcity O(1)
 
@@ -26,4 +26,4 @@ function bitwisepowercheck(n){
 }
 
 
-console.log(bitwisepowercheck(27))
+

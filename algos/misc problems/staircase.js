@@ -9,4 +9,3 @@ function staircase(n){
     
 }
 
-console.log(staircase(6))

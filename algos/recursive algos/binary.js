@@ -7,7 +7,7 @@ function recursivebinary(arr,target){
 
 
 
-console.log(recursivebinary([1,2,5,7,8,11,18,23,34],11))
+
 
 
 

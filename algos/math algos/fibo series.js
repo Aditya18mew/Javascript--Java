@@ -30,7 +30,7 @@ function fibono(n){
 }
 
 
-console.log(fibono(7))
+
 
 
 

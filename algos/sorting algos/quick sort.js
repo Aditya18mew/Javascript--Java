@@ -3,7 +3,7 @@ let a=[]
 for(let i=0;i<20;i++){
     a.push(Math.floor(Math.random()*100-50))
 }
-console.log(a)
+
 
 
 function quicksort(arr){
@@ -26,4 +26,3 @@ return arr
 }
 
 
-console.log(quicksort(a))

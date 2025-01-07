@@ -8,4 +8,3 @@ return n*recursivefacto(n-1)
 }
 
 
-console.log(recursivefacto(5))

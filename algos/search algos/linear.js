@@ -11,5 +11,3 @@ function linear(arr,target){
 
 
 
-console.log(linear([5,7,9,3,6],8))
-console.log(linear([5,7,9,3,6],3))

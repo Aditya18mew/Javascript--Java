@@ -14,9 +14,6 @@ function prime(n){
 
 
 
-console.log(prime(9))
-
-
 //time complexcity O(n)
 function primes(n){
     if(n<2){

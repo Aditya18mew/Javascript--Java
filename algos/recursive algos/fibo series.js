@@ -7,7 +7,7 @@ function recursivefibo(n,a=[0,1]){
 }
 
 
-console.log(recursivefibo(7))
+
 
 
 
@@ -29,5 +29,3 @@ function recursivefibno(n){
       return recursivefibno(n-1)+recursivefibno(n-2)
     }
   
-  
-    console.log(recursivefibno(6))
