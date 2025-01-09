@@ -169,33 +169,7 @@ class binarytree{
     }
 }
 
- //not working currently
- /*  delete(value){
-    console.log(this.#deletenode(this.#root,value))
-  }
 
-
-  #deletenode(root,value){
-if(root===null){
-    return root
-}
-if(value<root.value){
-    this.#deletenode(root.left,value)
-}else if(value>root.value){
-    this.#deletenode(root.right,value)
-}else{
-    if(!root.left && !root.right){
-       return null
-    }
-    if(!root.left){
-        return root.right
-    } else  if(!root.right){
-        return root.left
-    }
-} 
-return root.value  
-  }
- */
 }
      
        
@@ -206,23 +180,6 @@ return root.value
 
 let bst=new binarytree()
 
-
-
-bst.insert(10)
-bst.insert(5)
-bst.insert(15)
-bst.insert(6)
-bst.insert(7)
-bst.insert(3)
-bst.inorder()
-
-
-// bst.preorder()     // 24,13,5,2,9,6,18,26
-// bst.inorder()       //2,5,6,9,13,18,24,26
-// bst.postorder()     //2,6,9,5,18,13,26,24
-// bst.levelorder()
-// bst.levelorder()
-//  bst.levelorder()
 
 
 
