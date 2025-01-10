@@ -1,8 +1,8 @@
-## Data Structures and Algorithms (JavaScript & Java)
+# Data Structures and Algorithms (JavaScript & Java)
 
 This repository contains implementations of various Data Structures and Algorithms using JavaScript and Java. It is designed to help you improve problem-solving skills and understand key concepts in computer science.
 
-# Algorithms
+## Algorithms
 Sorting Algorithms (Bubble Sort, Merge Sort, Quick Sort, etc.)
 Searching Algorithms (Binary Search, Linear Search)
 Recursion and Backtracking
