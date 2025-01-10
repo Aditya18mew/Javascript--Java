@@ -1,1 +1,1 @@
-this repositories contain javascript datastructure and algorithm
+this repositories contain javascript and java datastructure and algorithm
