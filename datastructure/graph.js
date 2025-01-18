@@ -26,8 +26,5 @@
       }
    }
  
-   let gr=new graph(4)
-   gr.addedge(0,1)
-   gr.addedge(0,3)
-   gr.print()
+
    
