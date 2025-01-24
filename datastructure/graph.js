@@ -25,6 +25,44 @@
         }
       }
    }
+
+
+   const linkedlist=require("./singleylinkedlist")
+   
+   class linkedgraph{
+    #adjlist
+constructor(nodes){
+this.#adjlist=new Array(nodes)
+for(let i=0;i<this.#adjlist.length;i++){
+  let templist=new linkedlist()
+  this.#adjlist[i]=templist
+}
+
+}
+
+addedge(u,v){
+  this.#adjlist[u].append(v)
+  this.#adjlist[v].append(u)
+}
+
+print(){
+  for(let i=0;i<this.#adjlist.length;i++){
+    let curr=this.#adjlist[i].head
+    let s=`${i}->`
+    while(curr){
+    s+=`${curr.value},`
+    curr=curr.next
+    }
+    console.log(s)
+  }
+  }
+  
+
+
+   }
+
+
+   
  
 
    
