@@ -19,4 +19,3 @@ function  punishmentnumber(n){
     }
     
     }
-  console.log(  punishmentnumber(37))

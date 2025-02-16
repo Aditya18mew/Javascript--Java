@@ -1,4 +1,4 @@
- class ascendingarr {
+class ascendingarr {
 
    int maximumsum(int[] nums){
     int maximumsum=nums[0];
@@ -12,9 +12,10 @@
        maximumsum=Math.max(maximumsum,sum);
     }
     return maximumsum;
-}
+}  
+ 
    public static void main(String[] args) {
 
-   }
-    
+}
+
 }
