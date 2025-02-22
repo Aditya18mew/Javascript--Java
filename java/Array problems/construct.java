@@ -1,7 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
 
-
-
-    int[] constructDistancedSequence(int n) {
+int[] constructDistancedSequence(int n) {
       int size=n*2-1;
       int[] res=new int[size];
       for(int i=0;i<res.length;i++){
@@ -41,15 +41,13 @@
         }
     }
 return false;
+
 }
-
-
 
 
 
 void main(){
 int[] arr=constructDistancedSequence(3);
-for(int i:arr){
-    System.out.println(i);
-}
+
+
 }
