@@ -1,12 +1,4 @@
 
-class Node{
-    constructor(value){
-        this.val=value
-        this.left=null
-        this.right=null
-    }
-}
-
 
   function sameTree(p,q){
     return check(p,q)
@@ -24,4 +16,4 @@ class Node{
 
 
 
-  sameTree(null,null)
+  console.log(sameTree(null,null))

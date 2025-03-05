@@ -1,4 +1,6 @@
-
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 long numberofbadpairs(int[] nums){
     Map<Integer,Integer> map=new HashMap<>();
