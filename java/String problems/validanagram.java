@@ -18,5 +18,5 @@ return Arrays.equals(sort1, sort2);
 
 
 void main(){
-    System.out.println(validAnagram("ab", "a"));
+   validAnagram(null, null);
 }
