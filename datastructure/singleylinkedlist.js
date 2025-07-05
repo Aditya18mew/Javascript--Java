@@ -65,7 +65,7 @@ class Node {
             this.tail.next=node
             this.tail=node
         }
-        
+
         this.size++
         
         }
