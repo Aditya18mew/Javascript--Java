@@ -1,4 +1,4 @@
-
+package java_datastructure;
 
 public class singleylinkedlist {
        private ListNode head;
@@ -6,8 +6,8 @@ public class singleylinkedlist {
         private int size;
 
     public static class  ListNode {
-         public int data;
-         public ListNode next;
+         private int data;
+         private ListNode next;
 
          public ListNode(int value){
             this.data=value;
@@ -35,6 +35,18 @@ public class singleylinkedlist {
         }
         this.size++;
     }
+
+    
+     public int getstackelement(){
+        if(isEmpty()) return 404;
+        ListNode last=tail;
+        return last.data;
+     }
+     public int getqueueelement(){
+        if(isEmpty()) return 404;
+        ListNode first=head;
+        return first.data;
+     }
     
     public void piepend(int value){
         ListNode node=new ListNode(value);
@@ -136,7 +148,7 @@ public class singleylinkedlist {
 
 
 
-   public static void main(String[] args) {
+ public static void main(String[] args) {
 singleylinkedlist list=new singleylinkedlist();
    list.append(1);
    list.append(2);

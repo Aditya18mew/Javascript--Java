@@ -1,3 +1,6 @@
+package java_datastructure;
+
+
 public class doubleylinkedlist {
     private ListNode head;
     private ListNode tail;
@@ -45,6 +48,16 @@ public class doubleylinkedlist {
         curr.prev=null;
         this.size--;
         return curr.data;
+     }
+     public int getstackelement(){
+        if(isEmpty()) return 404;
+        ListNode last=tail;
+        return last.data;
+     }
+     public int getqueueelement(){
+        if(isEmpty()) return 404;
+        ListNode first=head;
+        return first.data;
      }
 
       public int removefromindex(int index){
