@@ -1,9 +1,9 @@
 
 
 class Node{
-    private int val;
-    private Node left;
-    private Node right;
+    public int val;
+    public Node left;
+    public Node right;
 
     Node(int value){
      this.val=value;
@@ -13,12 +13,11 @@ class Node{
 }
 
 
-
-
- boolean isSameTree(Node p, Node q) {
+public class sametree {
+    public static boolean isSameTree(Node p, Node q) {
     return check(p,q);
 }
- boolean check(Node p, Node q){
+public static boolean check(Node p, Node q){
    if(p==null && q==null){
     return true;
    }
@@ -28,8 +27,12 @@ class Node{
    return check(p.left,q.left) && check(p.right,q.right);
 }
 
-
-
-void main(){
-isSameTree(null, null);
+    public static void main(String[] args) {
+        isSameTree(null, null);
+    }
 }
+
+
+
+
+

@@ -1,9 +1,10 @@
-     
+import java.util.ArrayList;
+import java.util.List;
 
-    class Node {
-            private int val;
-            private Node left;
-            private Node right;
+class Node {
+            public int val;
+            public Node left;
+            public Node right;
 
             public Node(int value){
                 this.val=value;
@@ -13,17 +14,16 @@
         
     }
 
+    public class preordertraversal {
 
-
-
-
-    List<Integer> preorderTraversal(Node root) {
+        
+  public static  List<Integer> preorderTraversal(Node root) {
     List<Integer> list =new ArrayList<>();
     preorder(list,root);
     return list;
 
     } 
-    void preorder( List<Integer> list ,Node root){
+  public static  void preorder( List<Integer> list ,Node root){
                 if(root!=null){
                list.add(root.val);
                    preorder(list,root.left);
@@ -31,10 +31,16 @@
                 }
                           
     }
+    
+        public static void main(String[] args) {
+              preorderTraversal(null);
+        }
+    }
 
 
 
-void main(){
-    preorderTraversal(null);
 
-}
+
+
+
+

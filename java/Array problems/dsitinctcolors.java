@@ -1,7 +1,15 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
-int[] distinctcolors(int[][] queries,int limit){
+
+
+
+
+
+public class dsitinctcolors {
+
+    public static int[] distinctcolors(int[][] queries,int limit){
     ArrayList<Integer> local=new ArrayList<>();
      Map<Integer,Integer> map1=new HashMap<>();
      Map<Integer,Integer> map2=new HashMap<>();
@@ -28,11 +36,12 @@ int[] distinctcolors(int[][] queries,int limit){
        return arr;
 }
 
-
-void main(){
- /*  example  */ int limit=4;
+    public static void main(String[] args) {
+         /*  example  */ int limit=4;
     int[][] queries={{0,1},{1,4},{1,1},{1,4},{1,1}};
-  distinctcolors(queries, limit);
-   
-
+ int[]arr= distinctcolors(queries, limit);
+ for(int i:arr){
+    System.out.println(i);
+ }
+    }
 }

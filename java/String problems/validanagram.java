@@ -1,7 +1,8 @@
+import java.util.Arrays;
 
+public class validanagram {
 
-
-boolean validAnagram(String s,String t){
+public static boolean validAnagram(String s,String t){
 if(s.length()!=t.length()){
     return false;
 }
@@ -14,9 +15,7 @@ return Arrays.equals(sort1, sort2);
 }
 
 
-
-
-
-void main(){
-   validAnagram(null, null);
+ public static void main(String[] args) {
+      validAnagram(null, null);
+ }
 }

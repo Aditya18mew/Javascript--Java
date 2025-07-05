@@ -1,8 +1,10 @@
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
-long numberofbadpairs(int[] nums){
+
+public class badpairs {
+
+  public static long numberofbadpairs(int[] nums){
     Map<Integer,Integer> map=new HashMap<>();
     int goodpairs=0;
     for(int i=0;i<nums.length;i++){
@@ -20,9 +22,10 @@ long numberofbadpairs(int[] nums){
 }
 
 
-
-
-void main(){
-    int[] arr={4,1,3,3};
+  public static void main(String[] args) {
+      int[] arr={4,1,3,3};
    numberofbadpairs(arr);
+  }
 }
+
+

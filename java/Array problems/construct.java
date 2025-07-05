@@ -1,7 +1,11 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
-int[] constructDistancedSequence(int n) {
+
+   
+    public class construct {
+
+        public static int[] constructDistancedSequence(int n) {
       int size=n*2-1;
       int[] res=new int[size];
       for(int i=0;i<res.length;i++){
@@ -11,9 +15,8 @@ int[] constructDistancedSequence(int n) {
        backtrack(0,res,used,size,n);
        return res;
     }
-   
 
-   public boolean backtrack(int index,int[] res, Set<Integer> used,int size,int n){
+     public static boolean backtrack(int index,int[] res, Set<Integer> used,int size,int n){
     if(index==size) return true;
     if(res[index]!=0) return backtrack(index+1,res,used,size,n);
 
@@ -43,11 +46,12 @@ int[] constructDistancedSequence(int n) {
 return false;
 
 }
+    
+        public static void main(String[] args) {
+            int[] arr=constructDistancedSequence(3);
+        }
+    }
+
+  
 
 
-
-void main(){
-int[] arr=constructDistancedSequence(3);
-
-
-}
