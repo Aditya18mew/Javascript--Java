@@ -24,12 +24,14 @@ class validgridpath {
       minchanges[i][j]=Integer.MAX_VALUE;
     }
   }
+
   minchanges[0][0]=0;
   while(true){
     int[][] prevState = new int[minchanges.length][minchanges[0].length];
             for (int row = 0; row < grid.length; row++) {
                 prevState[row] = Arrays.copyOf(minchanges[row], grid[row].length);
             }
+
     for(int i=0;i<grid.length;i++){
       for(int j=0;j<grid[i].length;j++){
         if(i>0){
@@ -40,7 +42,7 @@ class validgridpath {
         }
       }
   }
-  for(int i=grid.length-1;i>=0;i--){
+   for(int i=grid.length-1;i>=0;i--){
       for(int j=grid[i].length-1;j>=0;j--){
           if(i<grid.length-1){
               minchanges[i][j]=Math.min(minchanges[i][j],minchanges[i+1][j]+(grid[i+1][j]==4? 0:1));

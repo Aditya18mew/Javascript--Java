@@ -23,7 +23,6 @@ import java.util.Set;
 
     for(int num=n;num>0;num--){
         if(used.contains(num)==true) continue;
-
         if(num==1){
             res[index]=num;
             used.add(num);

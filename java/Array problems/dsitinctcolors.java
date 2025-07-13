@@ -13,6 +13,7 @@ public class dsitinctcolors {
     ArrayList<Integer> local=new ArrayList<>();
      Map<Integer,Integer> map1=new HashMap<>();
      Map<Integer,Integer> map2=new HashMap<>();
+     
      for(int i=0;i<queries.length;i++){
         int x=queries[i][0];
         int y=queries[i][1];

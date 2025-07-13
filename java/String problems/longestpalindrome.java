@@ -23,6 +23,7 @@ public class longestpalindrome {
                 startindex--;
                 endindex++;
             }
+            
             startindex=i;
             endindex=i+1;
             while(startindex>=0 && endindex<s.length() && s.charAt(startindex)==s.charAt(endindex)){
