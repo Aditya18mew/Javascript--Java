@@ -25,7 +25,7 @@ class tuple {
      }
 
 int[] arr={0};
-     map.forEach((key,value)->{
+     map.forEach((_,value)->{
   arr[0]+=value.size()*(value.size()-1)/2;
      });
 
