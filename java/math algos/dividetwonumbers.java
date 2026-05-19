@@ -26,7 +26,7 @@ public static int divide(int dividend, int divisor){
      return  ((dividend < 0) ^ (divisor < 0)) ? -quotient : quotient;
 }
    public static void main(String[] args) {
-        System.out.println(divide(20, 6));
+      
     }
  
 }

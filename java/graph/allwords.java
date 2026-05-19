@@ -48,6 +48,7 @@ public class allwords {
             System.out.println(s);
           }
     }
+    
         public static void multidirection(int startx,int starty,ArrayList<String> list,Character[][] graph){
         int n=graph.length;
         int[][] direction={{-1,0},{1,0},{0,-1},{0,1},{-1,-1},{1,1},{-1,1},{1,-1}};

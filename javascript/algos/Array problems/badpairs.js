@@ -13,3 +13,5 @@ function numberofbadparis(nums){
   }
   return totalpairs
 }
+
+

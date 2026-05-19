@@ -16,6 +16,7 @@ class ascendingarr {
  
    public static void main(String[] args) {
 
+      
 }
 
 }
