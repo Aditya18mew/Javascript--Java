@@ -23,8 +23,7 @@ public class prefixintopostfix {
 
     public static void main(String[] args) {
 
-        int[] nums={1,2,3,4};
-      int[] answer=  productofarrayexceptself(nums);
+   
 
       
     }
